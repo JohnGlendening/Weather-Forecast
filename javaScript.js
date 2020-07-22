@@ -8,7 +8,7 @@ $(document).ready(function() {
     });
 
     //search button enter key feature. NOT WORKING***
-    $("#search-button").keypress(function(event)) {
+    $("#search-button").keypress(function(event) {
         var keycode = (event.keyCode ? event.keyCode : event.which);
         // var searchTerm = $("#search-value").val();
         if (keycode === 13) {
@@ -91,7 +91,6 @@ $(document).ready(function() {
 
             });
 
-            // merge and add to page
             title.append(img);
             cardBody.append(title, temp, humid, wind);
             card.append(cardBody);
