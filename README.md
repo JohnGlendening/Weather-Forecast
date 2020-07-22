@@ -1,2 +1,1 @@
-# Weather-Forecast
-Get the forecast for select destinations
+I wanted to know the weather outlook in certain destinations before traveling. Therefore, I created this application in order to see the outlook for multiple cities as well as my local weather forecast.
